@@ -14,7 +14,6 @@ print("###############################################")
 #computer choice
 options = ("rock", "paper", "scissors")
 computer_choice = random.choice(options)
-#print(computer_choice)
 
 while playing:
     while True:
