@@ -1,9 +1,5 @@
 import random
 
-# r = rock
-# p = paper
-# s = scissors
-
 playing = True
 
 # Label 
@@ -46,7 +42,7 @@ while playing:
             playing=False
             break
         else: 
-            continue
+            pass
     
     
     
