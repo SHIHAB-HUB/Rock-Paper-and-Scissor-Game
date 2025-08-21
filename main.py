@@ -21,6 +21,8 @@ while playing:
             break
 
     # Game decision
+    print(f"Computer choice : {computer_choice}")
+    print(f"Player Choice : {user_choice}")
     if(computer_choice==user_choice):
         print("Draw!!")
     elif(computer_choice=="rock" and user_choice=="scissors"):
